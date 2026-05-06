@@ -1,0 +1,40 @@
+# C++ / Visual Studio
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.sln.docstates
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.ncb
+*.sdf
+*.opensdf
+*.dbmdl
+*.vcproj.USER.*.user
+*.vcxproj.user
+
+# Qt
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+Makefile*
+*.pro.user*
+
+# Build artifacts
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+bin/
+
+# temp
+*.log
+tz_text.txt
