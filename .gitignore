@@ -38,3 +38,8 @@ bin/
 # temp
 *.log
 tz_text.txt
+
+# external scripts and docs
+*.py
+*.ps1
+*.pdf
