@@ -1,0 +1,24 @@
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{
+  breaklines,
+  breakanywhere,
+  breaksymbolleft={},
+  breaksymbolright={},
+  commandchars=\\\{\},
+  fontsize=\small
+}
+\usepackage{geometry}
+\geometry{margin=2cm, top=2.5cm, bottom=2.5cm}
+
+% Код без подсветки — тоже переносить
+\usepackage{listings}
+\lstset{
+  breaklines=true,
+  breakatwhitespace=false,
+  basicstyle=\small\ttfamily,
+  columns=flexible
+}
+
+% Запретить вдовые строки в блоках кода
+\widowpenalty=10000
+\clubpenalty=10000
