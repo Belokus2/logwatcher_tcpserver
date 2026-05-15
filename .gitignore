@@ -1,0 +1,37 @@
+# Visual Studio / C++
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.sln.docstates
+*.user
+*.userosscache
+*.suo
+
+# Qt / Build artifacts
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+Makefile*
+*.pro.user*
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+bin/
+
+# Логи и временные файлы тестирования
+Logs/
+test_logs/
+*.log
+*.csv
+tz_text.txt
+
+# Если у вас есть какие-то секретные или лишние доки:
+*.pdf
